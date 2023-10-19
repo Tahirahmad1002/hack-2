@@ -36,7 +36,13 @@ double min = z-y;
 
 double distance = acos( sin(w) * sin(x) + cos(w) * cos (x) * cos (min) * (radius));
 
+printf("\n\n\n ______LOCATION DISTANCE____\n\n");
+   
+printf(" Origin : ( %.6lf , %.6lf )\n\n",lat_ori,lon_ori);
 
+printf(" Destination : ( %.6lf , %.6lf )\n\n",lat_des,lon_des);
+    
+printf("Air Distance : %.6lf KMS \n\n",distance);
 
 
 
