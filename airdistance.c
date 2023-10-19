@@ -32,7 +32,9 @@ double y = (lat_des*pi)/180;
 
 double z = (lon_des*pi)/180;
 
+double min = z-y;
 
+double distance = acos( sin(w) * sin(x) + cos(w) * cos (x) * cos (min) * (radius));
 
 
 
