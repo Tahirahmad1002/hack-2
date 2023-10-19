@@ -24,6 +24,17 @@ printf("\nlon : ");
 scanf("%lf",&lon_des);
 
 
+double w = (lat_ori*pi)/180;
+
+double x = (lon_ori*pi)/180;
+
+double y = (lat_des*pi)/180;
+
+double z = (lon_des*pi)/180;
+
+
+
+
 
 
 
